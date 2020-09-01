@@ -17,7 +17,7 @@ kubectl get pods --all-namespaces
 
 # Step 4:
 # Forward the container port to a host
-kubectl port-forward deployment/machinelproject4-first 800:80
+kubectl port-forward deployment/machinelproject4-first 8000:80
 
 
 
